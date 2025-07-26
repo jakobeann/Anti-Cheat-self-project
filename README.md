@@ -1,6 +1,6 @@
 # Roblox Anti-Cheat System
 
-An anticheat I scripted for a game project.
+- An anticheat I scripted for a game project.
 ---
 
 ## Features
