@@ -16,7 +16,7 @@ task.spawn(function()
 	end
 end)
 
--- speed and jump check ( can edit if player has gamepass or gear (e.g Gravity Coil, Jetpack gamepass, etc..) )
+-- speed and jump check 
 task.spawn(function()
 	while humanoid and humanoid.Parent do
 		task.wait(1)
