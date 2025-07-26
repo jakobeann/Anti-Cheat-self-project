@@ -1,7 +1,6 @@
 # Roblox Anti-Cheat System
 
-An anticheat I scripted for a project called "Greedy Snatchers". (we are working on a name, and we haven't even confirmed a project but I made it incase anyways)
-
+An anticheat I scripted for a game project.
 ---
 
 ## Features
