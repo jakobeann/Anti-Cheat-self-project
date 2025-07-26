@@ -1,5 +1,4 @@
--- put this in serverscriptservice
-
+-- starter variables
 local Players = game:GetService("Players")
 local RS = game:GetService("ReplicatedStorage")
 local TweenService = game:GetService("TweenService")
