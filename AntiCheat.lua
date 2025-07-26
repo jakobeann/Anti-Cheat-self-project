@@ -5,17 +5,17 @@ local RS = game:GetService("ReplicatedStorage")
 local TweenService = game:GetService("TweenService")
 local FlagEvent = RS:WaitForChild("RemoteEvents"):WaitForChild("AntiCheatFlag")
 
-local MAX_TELEPORT = 50 -- studs/sec
+local MAX_TELEPORT = 50 
 local MAX_SPEED = 20
 local MAX_JUMP = 50
 
--- Flag and Kick
+-- flaging and kicking
 local function flagPlayer(player, reason)
 	warn("[Anti-Cheat]: "..player.Name.." flagged for: "..reason)
 	player:Kick("Cheating Detected: "..reason)
 end
 
--- Validate Remote Reports
+-- remote report
 FlagEvent.OnServerEvent:Connect(function(player, code)
 	if code == "SpeedHack" then
 		flagPlayer(player, "Speed Hack")
@@ -28,7 +28,7 @@ FlagEvent.OnServerEvent:Connect(function(player, code)
 	end
 end)
 
--- Movement Validator
+
 Players.PlayerAdded:Connect(function(player)
 	player.CharacterAdded:Connect(function(char)
 		local hrp = char:WaitForChild("HumanoidRootPart")
