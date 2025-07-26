@@ -3,8 +3,9 @@ ReplicatedStorage
     └── AntiCheatFlag (RemoteEvent)
 
 ServerScriptService
-└── AntiCheat (Script)
+└── AntiCheat (normal script)
 
 StarterPlayer
 └── StarterPlayerScripts
-    └── AntiCheatClient (LocalScript)
+    └── AntiCheatClient (localscript)
+
