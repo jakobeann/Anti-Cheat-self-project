@@ -16,7 +16,7 @@ task.spawn(function()
 	end
 end)
 
--- speed and jump check
+-- speed and jump check ( can edit if player has gamepass or gear (e.g Gravity Coil, Jetpack gamepass, etc..) )
 task.spawn(function()
 	while humanoid and humanoid.Parent do
 		task.wait(1)
@@ -42,7 +42,7 @@ task.spawn(function()
 	end
 end)
 
--- fly detection (if the player is above the jump limit)
+-- fly detection ( can edit if player has gamepass or gear (e.g Gravity Coil, Jetpack gamepass, etc..) )
 local lastY = char:WaitForChild("HumanoidRootPart").Position.Y
 task.spawn(function()
 	while true do
