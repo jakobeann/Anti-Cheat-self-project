@@ -11,7 +11,7 @@ An anticheat I scripted for a project called "Greedy Snatchers".
 
 ### Important Notes
 
-The Server script watches the behavior of the players and the explots. 
-The Client script sends the state of the player for server checks.
-Remote Event handles client and server reporting. 
-All important detection goes on in the server. Client scripts just detect local tampers like UI and/or scripts.
+- The Server script watches the behavior of the players and the explots. 
+- The Client script sends the state of the player for server checks.
+- Remote Event handles client and server reporting. 
+- All important detection goes on in the server. Client scripts just detect local tampers like UI and/or scripts.
